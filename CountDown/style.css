@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(129, 129, 216);
+    /* background: url(); */
+    /* background-size: cover; */
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.title{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: white;
+}
+.col{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
