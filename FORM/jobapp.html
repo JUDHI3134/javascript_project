@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+            <h1>Job Apllication <span class="small"> (Web)</span></h1>
+            <form action="">
+                <div class="form_container">
+
+                    <div class="form_control">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" placeholder="Enter First Name..">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" placeholder="Enter Last Name..">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email..">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="job_role">Job Role</label>
+                        <select name="job rule" id="job rule">
+                            <option value="">selcet job rule</option>
+                            <option value="frontend">Frontend devloper</option>
+                            <option value="backend">Backend devloper</option>
+                            <option value="full_stack">Full_Stack devloper</option>
+                            <option value="ui_ux">UI_UX designer</option>
+                        </select>
+                        
+                    </div>
+                    <div class="address_control">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="address" cols="50" rows="4" placeholder="Enter address"></textarea>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" placeholder="Enter city..">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="pincode">Pincode</label>
+                        <input type="number" name="pincode" id="pincode" placeholder="Enter pincode..">
+                    </div>
+
+                    <div class="form_control">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date" placeholder="Enter Date..">
+                    </div>
+                    
+                    <div class="form_control">
+                        <label for="uplode">Uplode your CV</label>
+                        <input type="file" name="uplode" id="uplode" >
+                    </div>
+                </div>
+                <div class="button_cont">
+                    <button type="submit">Apply now</button>
+                </div>
+            </form>
+        </div>
+         
+    </div>
+</body>
+</html>
